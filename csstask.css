@@ -35,17 +35,6 @@ select {
   box-sizing: border-box;
 }
 
-input[type=],
-select {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
-
 input[type="button"] button {
   border: black;
   color: rgb(233, 125, 36);
@@ -61,4 +50,9 @@ div {
   background-color: #f2f2f2;
   border: color red;
   padding: 20px;
+  width: 400px;
+  margin: 20px auto;
+  border-radius: 20px;
+  border-width: 2px;
+  box-shadow: 1px 1px 10px rgb(21, 16, 11);
 }
